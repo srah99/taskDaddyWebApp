@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<h1> Registration Page</h1>
+<form method="POST" action="">
+    {{form.hidden_tag()}}
+    {{form.username}}
+    {{form.password}}
+    {{form.submit}}
+</form>
+<a href = "{{url_for('login')}}">If you already have an account login here.</a><br/>
+</body>
+</html>
